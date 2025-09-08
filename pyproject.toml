@@ -13,6 +13,7 @@ dependencies = [
 ]
 
 [tool.poetry]
+packages = [{include = "streamlit-exe-runner", from = "src"}]
 
 [tool.poetry.group.dev.dependencies]
 streamlit = "^1.49.1"
