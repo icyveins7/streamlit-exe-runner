@@ -1,0 +1,22 @@
+[project]
+name = "streamlit-exe-runner"
+version = "0.1.0"
+description = "A small streamlit app to help you and your colleagues configure and queue runs of an executable, and collect its results."
+authors = [
+    {name = "icyveins7",email = "icyveins@hotmail.com"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit (>=1.49.1,<2.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.49.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
